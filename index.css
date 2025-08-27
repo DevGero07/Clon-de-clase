@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f4f4f4;
+  color: #ffffff;
+  line-height: 1.6;
+  height: 100vh;
+}
+.main {
+  min-height: 100vh;
+  width: 100%;
+}
+.hero__section {
+  background-image: url(/images/fondo-hero.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero__tittle {
+  font-size: 5rem;
+
+  border-radius: 5px;
+}
+.hero__subtittle {
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ccc;
+  text-align: center;
+}
+.hero__paragraf {
+  margin-top: 7rem;
+  text-align: center;
+  line-height: 1.6;
+  font-weight: 400; 
+  font-size: 1.5rem;
+}
+.hero__container {
+  margin-top: 10rem;
+  display: flex;
+  gap: 2rem;
+}
+.hero__button {
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.hero__button--submit {
+  background-color: #e53935;
+}
+.hero__button--Our {
+  background: transparent;
+  border: 1px solid #bdbdbd;
+}
+.hero__button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.partners {
+  min-height: 20vh;
+  display: flex;
+  background-color: #ffffff;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.partners__information {
+  padding: 1rem;
+  width: 50%;
+  margin-left: 2rem;
+}
+.partners__tittle {
+  color: black;
+  font-size: 1.7rem;
+}
+
+.partners__span {
+  font-weight: lighter;
+  color: rgb(20, 17, 17);
+  font-size: 1.3rem;
+}
+.partners__paragraf {
+  margin-top: 2rem;
+  color: rgb(94, 93, 93);
+  font-size: 18px;
+  line-height: 2;
+  width: 47%;
+}
+.button__partners {
+  padding: 1rem;
+  margin-top: 2rem;
+  color: #e53935;
+  border: 1px solid #e53935;
+  background-color: transparent;
+  font-weight: bolder;
+  transition: all 0.3s ease;
+}
+.button__partners:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.partners__icones {
+  max-width: 600px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 5rem;
+}
+.partners__image {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: contain;
+}
